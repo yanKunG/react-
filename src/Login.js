@@ -27,6 +27,8 @@ class Login extends React.Component {
       if(res.meta.status === 200) {
         // 保存token到本地缓存中
         sessionStorage.setItem('mytoken', res.data.token);
+        
+        sessionStorage.setItem('uid', res.data.uid);
         // 跳转到主页面
         let { history } = this.props;
         history.push('/home');

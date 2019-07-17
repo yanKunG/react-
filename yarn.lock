@@ -8003,6 +8003,13 @@ react-app-polyfill@^1.0.1:
     regenerator-runtime "0.13.2"
     whatwg-fetch "3.0.0"
 
+react-avatar-editor@^11.0.7:
+  version "11.0.7"
+  resolved "https://registry.npm.taobao.org/react-avatar-editor/download/react-avatar-editor-11.0.7.tgz#021053cfeaa138407b79279ee5a0384f273f0c54"
+  integrity sha1-AhBTz+qhOEB7eSee5aA4Tyc/DFQ=
+  dependencies:
+    prop-types "^15.5.8"
+
 react-dev-utils@^9.0.1:
   version "9.0.1"
   resolved "https://registry.npm.taobao.org/react-dev-utils/download/react-dev-utils-9.0.1.tgz#5c03d85a0b2537d0c46af7165c24a7dfb274bef2"
